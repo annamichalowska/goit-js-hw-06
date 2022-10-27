@@ -16,7 +16,7 @@ const images = [
 const listImages = document.querySelector("ul");
 const addImages = images.map((image) => {
   const addItemImg = document.createElement("li");
-  addItemImg.classList.add("item-img");
+  //addItemImg.classList.add("item-img");
   const addImage = document.createElement("img");
   addImage.src = image.url;
   addImage.alt = image.alt;
